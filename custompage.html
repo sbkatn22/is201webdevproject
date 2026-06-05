@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Included Bootstrap Header and Navigation for Professional Consistency -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom From Scratch Page</title>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap) (Just for NavBar and Header Professional Consistency)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Custom theme CSS -->
+    <link rel="stylesheet" href="css/customstyles.css">
+</head>
+<body>
+    <!-- Main Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Sankalp Katnalu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="custompage.html">From Scratch Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Header-->
+    <header id="top" class="masthead" style="background-image: url('assets/img/experience-bg.jpg')">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="page-heading">
+                        <h1>Page From Scratch</h1>
+                        <span class="subheading">A demonstration of what I've learned</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Custom layout for body after header -->
+    <!-- Replicated layout from IS 201 walkthrough but adapted to work with Bootstrap -->
+    <div class="customlayout">
+        <!-- Left Menu - Includes built-in navigation from scratch to other pages -->
+        <div class="customleftmenu">
+            <p>Check out more about me:</p>
+            <a href="education.html">My Education</a><br>
+            <a href="experience.html">My Experience</a><br>
+            <a href="skills.html">My Skills</a>
+        </div>
+        <!-- Main Body -->
+        <div class="custommainbody">
+            <p class="justify">
+                <p>
+                    <span class="exemplify">About this Page:</span> The goal of this page is to demonstrate the HTML and CSS skills that I've learned and honed through <a href="https://catalog.byu.edu/courses/08962-004" target="_blank">Brigham Young University's IS 201 - Information Systems</a> course.
+                </p>
+                <!-- <br><br> -->
+                <span class="exemplify">Motivation:</span>
+                My goal is to make something useful out of myself. To grow, learn, and cultivate skills and capabilities that I can carry with me and utilize throughout my life. This course has been a great stepping stone in making that goal a reality.
+            </p>
+            <!-- Unordered List nested in Ordered List -->
+            <span class="exemplify">Career Goals:</span>
+            <ol>
+                <!-- Entrepreneur -->
+                <li>
+                    <span style="text-decoration: underline;">Entrepreneur</span>
+                    <ul>
+                        <li>I want to eventually run my own business.</li>
+                        <li>I think everyone dreams of working for themselves, but I intend to grow my skillset so that I can one day do that for myself.</li>
+                    </ul>
+                </li>
+                <!-- Robotics Engineer -->
+                <li>
+                    <span style="text-decoration: underline;">Robotics Engineer</span>
+                    <ul>
+                        <li>
+                            I initially got started in robotics through FIRST Robotics Competition (FRC) <br>
+                            <img src="assets/img/robotics-img.jpeg" alt="FRC Robotics Image" class="customlistimage">
+                        </li>
+                        <li>Below I've included a brief video by FRC Team 422 - The Mech Tech Dragons, detailing how teams go about building these robots.</li>
+                        <li>I'm particularly interested in how robotics can merge with the medical industry to provide surgeons with reliable tools that aid them through operations.</li>
+                    </ul>
+                </li>
+            </ol>
+            <br>
+            <!-- Youtube Video -->
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dmu6-G1NNLE?si=33leBSsj0fceRCVI" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe><br><br>
+            <p>
+                <span class="exemplify">Other Interests:</span>
+                Outside of my professional experiences and career-goals, I am a massive soccer fan. I'm incredibly excited for the 2026 FIFA World Cup and I've implemented an interesting and interactive graphic I found that goes over the history of the FIFA World Cup.
+            </p>
+            <div class="tableau-container">
+                <div class="tableauPlaceholder" id="viz1780685917885" style="position: relative">
+                    <noscript>
+                        <a href="#">
+                            <img 
+                                alt="World Cup"
+                                src="https://public.tableau.com/static/images/AH/AHistoryoftheWorldCup/WorldCup/1_rss.png"
+                                style="border: none"
+                            />
+                        </a>
+                    </noscript>
+
+                    <object class="tableauViz" style="display: none;">
+                        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                        <param name="embed_code_version" value="3" />
+                        <param name="site_root" value="" />
+                        <param name="name" value="AHistoryoftheWorldCup/WorldCup" />
+                        <param name="tabs" value="no" />
+                        <param name="toolbar" value="yes" />
+                        <param name="static_image" value="https://public.tableau.com/static/images/AH/AHistoryoftheWorldCup/WorldCup/1.png" />
+                        <param name="animate_transition" value="yes" />
+                        <param name="display_static_image" value="yes" />
+                        <param name="display_spinner" value="yes" />
+                        <param name="display_overlay" value="yes" />
+                        <param name="display_count" value="yes" />
+                        <param name="language" value="en-US" />
+                    </object>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var divElement = document.getElementById("viz1780685917885");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+
+                vizElement.style.width = "100%";
+                vizElement.style.height = "700px";
+
+                var scriptElement = document.createElement("script");
+                scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <br><br><br><br>
+            <!-- On Page Anchor back to Top (set to header) -->
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+</body>
+
+    

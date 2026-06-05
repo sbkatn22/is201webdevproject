@@ -1,0 +1,73 @@
+.customlayout {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 24px;
+    padding: 2rem;
+}
+
+.customleftmenu {
+    border-right: solid 1px #555555;
+    padding-right: 12px;
+}
+
+.custommainbody {
+    padding: 0 1rem;
+    min-width: 0;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.75)),
+        url("../assets/img/scratchpage-bg.jpg");
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* .customfooter {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+} */
+
+.customlistimage {
+    display: block;
+    width: 250px;
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.customyoutube {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px 0;
+}
+
+.tableau-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 24px 0;
+}
+
+.tableauPlaceholder,
+.tableauViz {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.tableauViz {
+    min-height: 700px;
+}
+
+.exemplify {
+    text-decoration: underline overline;
+    font-weight: bold;
+}
