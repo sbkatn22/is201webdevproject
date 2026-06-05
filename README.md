@@ -1,2 +1,2 @@
-# sbkatn22.is201webdevproject.github.io
-Visit the webiste at https://sbkatn22.github.io/sbkatn22.is201webdevproject.github.io/
+This is my Web Dev Project for BYU's IS 201 course.
+You can visit the website at https://sbkatn22.github.io/is201webdevproject/
